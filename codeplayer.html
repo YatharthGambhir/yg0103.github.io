@@ -1,0 +1,140 @@
+<html>
+    <head><title>CodeTester</title>
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+</head>
+<style>
+    #k{background-color:#EDEDED ;width: 100%;height: 8%;;}
+    .j{font-weight: bold;font-size: 150%;float: left; margin: 0 200 0 0;}
+    body{margin:0;
+    padding: 0;}
+    button{height: 25;color: black;}
+   
+    #ke{width: 100%; height: 92%;margin: 0 0;}
+    
+   .w{width: 33%;height: 95%;float: left;}
+   .b{background-color: #ff00ff;}
+
+   
+   
+   
+</style>
+
+<body>
+
+<div id="k">
+<div class="j">CODEPLAYER</div>
+<button class="p b" >Html</button>
+<button class="q b ">CSS</button>
+<button class="s b">Output</button>
+
+</div>
+
+<div id="ke">
+  <textarea type="text" id="a" class="w"></textarea>
+    <textarea type="text" id="b" class="w"></textarea>
+  
+  <iframe id="d" class="w"></iframe>
+
+</div>
+
+<script>
+var n=1
+var p = true
+var q = true
+var r = true
+var t= true
+
+ function s() {
+     if(n==1){
+         $(".w").css("width","33%")
+        }
+        if(n==2){
+        $(".w").css("width","50%")
+    }
+    if(n==3){
+        $(".w").css("width","100%")
+    }
+    
+ }
+     
+
+
+ 
+$(".p").click(function(){
+   if(p){
+    $("#a").css("display","none")
+    n=n+1
+    s()
+    p= false
+    $(this).removeClass("b")
+   }
+   else{
+       $("#a").css("display","block")
+       n=n-1
+       s()
+       p=true
+       $(this).addClass("b")
+   }
+})
+$(".q").click(function(){
+   if(q){
+    $("#b").css("display","none")
+    n=n+1
+    s()
+    q= false
+    $(this).removeClass("b")
+   }
+   else{
+       $("#b").css("display","block")
+       n=n-1
+       s()
+       q=true
+       $(this).addClass("b")
+   }
+})
+
+$(".s").click(function(){
+   if(t){
+    $("#d").css("display","none")
+    n=n+1
+    s()
+    t= false
+    $(this).removeClass("b")
+   }
+   else{
+       $("#d").css("display","block")
+       n=n-1
+       s()
+       t=true
+       $(this).addClass("b")
+   }
+})
+function jk(){
+    $("textarea").keyup(function(){
+        $("#d").contents().find("html").html("<html><head><style> "+
+            $("#b").val()+
+            "</style> </head> <body>"+
+             $("#a").val()+
+             "</body></html>")
+        
+}
+
+)
+
+
+
+
+
+
+}
+jk()
+
+
+
+</script>
+
+
+</body>
+</html>

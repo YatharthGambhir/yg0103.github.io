@@ -1,0 +1,110 @@
+<html>
+    <head>
+<title>GDSC TASK</title>
+<link rel="stylesheet" type="text/css" href="GD1.css">
+
+    </head>
+    
+    
+<body>
+    <div id ="j">
+        <div id="k">
+         <span id="a">Yatharth Gambhir</span>
+         <button id="m" class="q">Home</button>
+       <button class="t q" id="zm">My Hobbies</button>
+       <button class="t q" id="zx">Skill</button>
+        </div> 
+        </div>
+
+
+<div id="cl">
+
+ <div id="v">
+      <div class="w">
+    <div class="p"> Eager to learn<br>and always up for a challenge</div>
+   <div class="f si">My name is Yatharth Gambhir<br> and I am pursuing ICE from NSUT,<br>I have maintained good academic <br> performance along with maintaining a<br> streak as a sportsman</div>
+   <div class="f"><a href="T1.html"><button  class="h">My Hobbies</button></a>
+    <a href="T2.html"><button  class="h">Skills</button></a></div>
+    <div id="sc">My Projects</div>
+    <div class="dc"><a href="projectjavascript.html" class="eq">Reaction Tester</a></div>
+    <div class="dc"><a href="codeplayer.html" class="eq">Code Tester</a></div>
+        
+        </div>
+     <div  id="o"><img src="myimg.jpeg" class="z">
+    </div>   
+</div>
+</div>
+ 
+</div>
+<script type="text/javascript">
+    var s=`<div class="pq">My Hobbies</div>
+        <div style="float: left; margin-right: 80px; margin-left: 150px; margin-top:100px" class="fc"><img src="COMPIMG.png" class="o"><br><span style="margin-left: 17px;font-weight: bold;">Coding</span></div> 
+        
+        <div style="float: left; margin-right:70px" class="bv"><img src="tennisimg.png" class="o"><br><span style="margin-left: 3px;font-weight: bold;">Watching Tennis</span></div> 
+        
+        <div style="float: left; margin-right: 70px" class="bv"><img src="youimg.png" class="o"><br><span style="margin-left: 4px;font-weight: bold;">Surfing Youtube</span></div> 
+        
+        <div style="float: left; margin-right: 70px ;margin-top:100px" class="fc"><img src="podimg.png" class="o"><br><span style="margin-left: 4px;font-weight: bold;">Listening Podcasts</span></div> 
+         `
+                 
+        
+document.getElementById("zm").onclick=function(){
+    document.getElementById("v").innerHTML= s
+    t=1
+    c()
+}
+
+var j=`    <div class="w">
+    <div class="p"> Eager to learn<br>and always up for a challenge</div>
+   <div class="f si">My name is Yatharth Gambhir<br> and I am pursuing ICE from NSUT,<br>I have maintained good academic <br> performanve along with maintaining a<br> streak as a sportsman</div>
+   <div class="f"><a href="T1.html"><button  class="h">My Hobbies</button></a>
+    <a href="T2.html"><button  class="h">Skills</button></a></div>
+    <div id="sc">My Projects</div>
+    <div class="dc"><a href="projectjavascript.html" class="eq">Reaction Tester</a></div>
+    <div class="dc"><a href="codeplayer.html" class="eq">Code Tester</a></div>
+        
+        </div>
+     <div class="w" id="o"><img src="myimg.jpeg" class="z">
+    </div>     `
+    document.getElementById("m").onclick=function(){
+        document.getElementById("v").innerHTML= j
+        t=0
+        c()
+    }
+
+    var k=`<div class="pq">Skills</div>
+        <div class="u"><label for="e">HTML</label>
+        <progress value="74" max="100" id="e"></progress></div>
+        <div class="u"><label for="y">CSS</label>
+        <progress value="86" max="100" id="y"></progress></div>
+        <div class="u"><label for="s">Javascript</label>
+        <progress value="43" max="100" id="s"></progress></div`
+        document.getElementById("zx").onclick=function(){
+        document.getElementById("v").innerHTML= k
+            t=2
+         c()}
+var t=0
+function c(){
+      if(t==0){
+          document.getElementById("m").style.borderBottom="4px solid blue"
+          document.getElementById("zm").style.borderBottom="none"
+          document.getElementById("zx").style.borderBottom="none"
+      }
+      if(t==1){
+          document.getElementById("zm").style.borderBottom="4px solid blue"
+          document.getElementById("zx").style.borderBottom="none"
+          document.getElementById("m").style.borderBottom="none"
+      }
+      if(t==2){
+          document.getElementById("zx").style.borderBottom="4px solid blue"
+          document.getElementById("m").style.borderBottom="none"
+          document.getElementById("zm").style.borderBottom="none"
+
+      }
+    }
+
+</script>
+</body>
+
+
+</html>

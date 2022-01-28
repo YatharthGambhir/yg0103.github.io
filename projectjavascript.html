@@ -1,0 +1,62 @@
+<html>
+<head><title>Reaction tester</title></head>
+<style>#m{width:200px;height:200px;background-color: brown;display: none;position: relative;}
+   
+</style>
+<body>
+    <p id="j">your time </p>
+    <div id="m"></div>
+  
+<script type="text/javascript">
+    var x=new Date().getTime()
+  function S()
+    {var a="1234567ABCDEFG".split('')
+    var c="#"
+    for(i=0;i<6;i++)
+    {c +=a[Math.floor(Math.random()*16)]}
+           return c}
+
+      function j()
+    {         
+         var l=Math.random()*400 
+         var n= l/2         
+         document.getElementById("m").style.backgroundColor= S()
+         if(Math.random()>0.5)
+         {document.getElementById("m").style.borderRadius= "50%"}
+         else{document.getElementById("m").style.borderRadius="0"}
+         document.getElementById("m").style.top = l+"px"
+        document.getElementById("m").style.left= l+"px"
+        document.getElementById("m").style.display="block"
+    x=new Date().getTime()   
+    
+
+ 
+
+    }
+    function s()
+    {
+    setTimeout(j,Math.random()*2000)}
+    s()
+     document.getElementById("m").onclick=function(){ 
+          document.getElementById("m").style.display="none" ;
+     var y=new Date().getTime()
+        var z=(y-x)/1000        
+        document.getElementById("j").innerHTML= "your time  "+z+"s"
+        s()
+         } 
+        
+
+
+
+  
+        
+</script>
+ 
+
+
+
+</body>
+
+
+  
+</html>          
