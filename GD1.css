@@ -1,17 +1,17 @@
 
        body{margin: 0;padding: 0;}    
-       #j{background-color: #dda0dd; height: 12%; width:100%;position: sticky;top: 0;}
+       #j{background-color: white; height: 13%; width:100%;position: sticky;top: 0;}
     #k{width:900px;margin: 0 auto;}
-    #a{font-weight:bold;font-size: 200%; position: relative;top:20px;color: #4b0082;}
-    .q{color: 	powderblue; border: none ; background-color:#dda0dd; color: black;}
+    #a{font-weight:bold;font-size: 200%; position: relative;top:20px;color: #4b0082;border-bottom:3px solid black}
+    .q{color:white; border: none ; background-color:#dda0dd; color: black;}
     .q:hover{background-color: blue;}
     #m{margin-left: 320px; position: relative;top: 15px; font-size: 120%;border-bottom:4px solid blue ;}
     .t{margin-left: 20px; position: relative;top: 15px;font-size: 120%;}
-    #cl{height: 88%;;width: 100%;background-image:url("back1.gif");}
+    #cl{height: 87%;;width: 100%;background-image:url("fri.jpg");}
     #v{padding-top: 60px; margin: 0 auto;width: 1000px;;}
-    .p{font-size: 160%;font-weight: bold ;;color: #000080;font-family: Georgia, 'Times New Roman', Times, serif;}
+    .p{font-size: 160%;font-weight: bold ;;color: white;font-family: Georgia, 'Times New Roman', Times, serif;}
     .f{padding-left: 10px;padding-top: 20px;font-size: 120%;}
-    .h{color:black ; background-color:#fddcfd ;width: 100px;border-radius: 10px;height: 30px;font-family: Georgia, 'Times New Roman', Times, serif ;border: 2px solid  skyblue ;}
+    .h{color:black; background-color:#fddcfd ;width: 100px;border-radius: 10px;height: 30px;font-family: Georgia, 'Times New Roman', Times, serif ;border: 2px solid  skyblue ;}
     .w{float: left;;margin-left: 70px;position: relative;animation:l 2s  ;opacity: 0;animation-fill-mode: forwards}
     #o{margin-left: 140px;float: left; position: relative;animation:n 2s  ;opacity: 0;animation-fill-mode: forwards ;}
     @keyframes n{
@@ -34,12 +34,12 @@
     
     
     .z{height: 300px;;}
-    .pq{ text-align: center; font-size: 250%; font-weight: bold;color: #dc143c;margin-right:70px}
+    .pq{ text-align: center; font-size: 250%; font-weight: bold;color: white;margin-right:70px}
     .o{height:70px;margin-top: 50px;margin-bottom: 30px; margin-left: 10px ;}
-    label{display: block; color: #483d8b;font-size:140% ;}
+    label{display: block; color: white;font-size:140% ;}
     .u{margin-left: 300px;margin-top: 50px;margin-bottom: 30px; ;}
-    progress{margin-top: 10px;width: 300px;}
-     #sc{font-size: 200%; margin-top: 20px; margin-bottom: 10px; margin-left:7px ;color: blue;}
-    .eq{text-decoration: none; color: #b22222;font-size: 130%;}
+    progress{margin-top: 10px;width: 300px;background-color:green}
+     #sc{font-size: 200%; margin-top: 20px; margin-bottom: 10px; margin-left:7px ;color: white;}
+    .eq{text-decoration: none; color: white;font-size: 130%;}
     .dc{margin-bottom: 10px; margin-left: 6px;}
-    .si{color: black;font-family: Arial, Helvetica, sans-serif;}
+    .si{color: white;font-family: Arial, Helvetica, sans-serif;}
