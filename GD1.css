@@ -11,7 +11,7 @@
     #v{padding-top: 60px; margin: 0 auto;width: 1000px;;}
     .p{font-size: 160%;font-weight: bold ;;color: white;font-family: Georgia, 'Times New Roman', Times, serif;}
     .f{padding-left: 10px;padding-top: 20px;font-size: 120%;}
-    .h{color:black; background-color:white ;width: 100px;border-radius: 10px;height: 30px;font-family: Georgia, 'Times New Roman', Times, serif ;border: 2px solid  black ;}
+    .h{color:black; background-color:white ;width: 100px;border-radius: 10px;height: 30px;font-family: Georgia, 'Times New Roman', Times, serif ;border: 3px solid  black ;}
     .w{float: left;;margin-left: 70px;position: relative;animation:l 2s  ;opacity: 0;animation-fill-mode: forwards}
     #o{margin-left: 140px;float: left; position: relative;animation:n 2s  ;opacity: 0;animation-fill-mode: forwards ;}
     @keyframes n{
